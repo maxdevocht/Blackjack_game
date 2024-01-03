@@ -2,6 +2,7 @@ let firstCard = 2
 let secondCard = 8
 let sum = firstCard + secondCard
 let hasBlackJack = false
+let isAlive = true
 
 if (sum <= 20) {
     console.log("Do you want to draw a new card? 🙂")
@@ -10,4 +11,5 @@ if (sum <= 20) {
     hasBlackJack = true
 } else {
     console.log("Too bad.. You just lost your money! 😭")
+    isAlive = false
 }
