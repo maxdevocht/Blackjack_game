@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+body {
+    font-family: 'Tenor Sans', sans-serif;
+    background: url(/img/table.svg);
+}
+
+h1 {
+    color: goldenrod;
+    
+}
+
+#message-el {
+    
+}
