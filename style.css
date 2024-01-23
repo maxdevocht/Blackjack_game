@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 
 body {
+    height: 100vh;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 24px;
     background: url(/img/table.svg);
@@ -18,8 +19,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 5rem 2rem;
-    padding: 2rem 5rem;
+    width: 50%;
+    height: 75%;
+    margin: 50% 0rem;
+    padding: 2rem 1rem;
     background: rgba(255,255,255,0.25);
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
