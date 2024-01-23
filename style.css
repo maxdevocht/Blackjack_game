@@ -40,6 +40,7 @@ h1 {
     font-style: italic;
 }
 
+
 button {
     color: #016f32;
     font-size: 16px;
@@ -52,4 +53,17 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 2px;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 80%;
+
+    }
+}
+
+@media screen and (max-width: 420px) {
+    button {
+        margin-bottom: 10px;
+    }
 }
