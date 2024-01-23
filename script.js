@@ -1,6 +1,6 @@
 
 let cards = []
-let sum = firstCard + secondCard
+let sum = 0
 let hasBlackJack = false
 let isAlive = false
 let message = ""
